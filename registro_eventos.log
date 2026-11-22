@@ -1,0 +1,147 @@
+[2026-11-22 10:30:53] [SYSTEM] === INICIO DE EJECUCIÓN DEL SISTEMA SOFTWARE FJ ===
+[2026-11-22 10:30:53] [INFO] Cliente registrado exitosamente: Cliente [C01]: Laura Gómez | Email: laura.gomez@empresa.com | Tel: 3104567890
+[2026-11-22 10:30:53] [ERROR] Contexto: Instanciación C02 | Excepción: DatosInvalidosError -> Correo electrónico inválido: 'carlos.sin.arroba.com'.
+[2026-11-22 10:30:53] [INFO] Cliente registrado exitosamente: Cliente [C03]: Andrés Mendoza | Email: amendoza@techcorp.co | Tel: 3159876543
+[2026-11-22 10:30:53] [INFO] Servicio creado: Sala 'Sala Innovación A' (Capacidad: 12 personas, con sistema de videoconferencia).
+[2026-11-22 10:30:53] [INFO] Servicio creado: Equipo [Cómputo]: Workstation Mac Studio M2 (Requiere depósito de garantía).
+[2026-11-22 10:30:53] [INFO] Servicio creado: Asesoría en Cloud (Consultor Senior): Arquitectura Cloud AWS.
+[2026-11-22 10:30:53] [ERROR] Contexto: Instanciación S04 | Excepción: DatosInvalidosError -> La tarifa base 'CIEN_DOLARES' debe ser numérica. | Causado por: ValueError: could not convert string to float: 'CIEN_DOLARES'
+[2026-11-22 10:30:53] [INFO] Reserva confirmada: Reserva [R01] | Estado: CONFIRMADA | Cliente: Laura Gómez | Servicio: Sala Innovación A (3.0h) | Total: $410.55
+[2026-11-22 10:30:53] [AUDIT] Finalizado intento de transacción para Reserva 'R01'.
+[2026-11-22 10:30:53] [ERROR] Contexto: Creación/Confirmación de Reserva R02 (Cliente=C03, Servicio=S01) | Excepción: ServicioNoDisponibleError -> El servicio 'Sala Innovación A' no está disponible actualmente.
+[2026-11-22 10:30:53] [AUDIT] Finalizado intento de transacción para Reserva 'R02'.
+[2026-11-22 10:30:53] [INFO] Reserva confirmada: Reserva [R03] | Estado: CONFIRMADA | Cliente: Andrés Mendoza | Servicio: Arquitectura Cloud AWS (4.0h) | Total: $899.64
+[2026-11-22 10:30:53] [AUDIT] Finalizado intento de transacción para Reserva 'R03'.
+[2026-11-22 10:30:53] [ERROR] Contexto: Creación/Confirmación de Reserva R04 (Cliente=C01, Servicio=S02) | Excepción: CalculoInconsistenteError -> Porcentajes de impuesto/descuento o recargos fuera de rango válido.
+[2026-11-22 10:30:53] [AUDIT] Finalizado intento de transacción para Reserva 'R04'.
+[2026-11-22 10:30:53] [INFO] Reserva 'R01' completada satisfactoriamente.
+[2026-11-22 10:30:53] [ERROR] Contexto: Cancelación de reserva R01 | Excepción: OperacionNoPermitidaError -> No se puede cancelar la reserva 'R01' en estado 'COMPLETADA'.
+[2026-11-22 10:30:53] [INFO] Reserva confirmada: Reserva [R05] | Estado: CONFIRMADA | Cliente: Andrés Mendoza | Servicio: Sala Innovación A (2.0h) | Total: $273.70
+[2026-11-22 10:30:53] [AUDIT] Finalizado intento de transacción para Reserva 'R05'.
+[2026-11-22 10:30:53] [SYSTEM] === FIN DE EJECUCIÓN SIN INTERRUPCIONES ===
+[2026-11-22 10:36:09] [SYSTEM] === INICIO DE EJECUCIÓN DEL SISTEMA SOFTWARE FJ ===
+[2026-11-22 10:36:09] [INFO] Cliente registrado exitosamente: Cliente [C01]: Laura Gómez | Email: laura.gomez@empresa.com | Tel: 3104567890
+[2026-11-22 10:36:09] [ERROR] Contexto: Instanciación C02 | Excepción: DatosInvalidosError -> Correo electrónico inválido: 'carlos.sin.arroba.com'.
+[2026-11-22 10:36:09] [INFO] Cliente registrado exitosamente: Cliente [C03]: Andrés Mendoza | Email: amendoza@techcorp.co | Tel: 3159876543
+[2026-11-22 10:36:09] [INFO] Servicio creado: Sala 'Sala Innovación A' (Capacidad: 12 personas, con sistema de videoconferencia).
+[2026-11-22 10:36:09] [INFO] Servicio creado: Equipo [Cómputo]: Workstation Mac Studio M2 (Requiere depósito de garantía).
+[2026-11-22 10:36:09] [INFO] Servicio creado: Asesoría en Cloud (Consultor Senior): Arquitectura Cloud AWS.
+[2026-11-22 10:36:09] [ERROR] Contexto: Instanciación S04 | Excepción: DatosInvalidosError -> La tarifa base 'CIEN_DOLARES' debe ser numérica. | Causado por: ValueError: could not convert string to float: 'CIEN_DOLARES'
+[2026-11-22 10:36:09] [INFO] Reserva confirmada: Reserva [R01] | Estado: CONFIRMADA | Cliente: Laura Gómez | Servicio: Sala Innovación A (3.0h) | Total: $410.55
+[2026-11-22 10:36:09] [AUDIT] Finalizado intento de transacción para Reserva 'R01'.
+[2026-11-22 10:36:09] [ERROR] Contexto: Creación/Confirmación de Reserva R02 (Cliente=C03, Servicio=S01) | Excepción: ServicioNoDisponibleError -> El servicio 'Sala Innovación A' no está disponible actualmente.
+[2026-11-22 10:36:09] [AUDIT] Finalizado intento de transacción para Reserva 'R02'.
+[2026-11-22 10:36:09] [INFO] Reserva confirmada: Reserva [R03] | Estado: CONFIRMADA | Cliente: Andrés Mendoza | Servicio: Arquitectura Cloud AWS (4.0h) | Total: $899.64
+[2026-11-22 10:36:09] [AUDIT] Finalizado intento de transacción para Reserva 'R03'.
+[2026-11-22 10:36:09] [ERROR] Contexto: Creación/Confirmación de Reserva R04 (Cliente=C01, Servicio=S02) | Excepción: CalculoInconsistenteError -> Porcentajes de impuesto/descuento o recargos fuera de rango válido.
+[2026-11-22 10:36:09] [AUDIT] Finalizado intento de transacción para Reserva 'R04'.
+[2026-11-22 10:36:09] [INFO] Reserva 'R01' completada satisfactoriamente.
+[2026-11-22 10:36:09] [ERROR] Contexto: Cancelación de reserva R01 | Excepción: OperacionNoPermitidaError -> No se puede cancelar la reserva 'R01' en estado 'COMPLETADA'.
+[2026-11-22 10:36:09] [INFO] Reserva confirmada: Reserva [R05] | Estado: CONFIRMADA | Cliente: Andrés Mendoza | Servicio: Sala Innovación A (2.0h) | Total: $273.70
+[2026-11-22 10:36:09] [AUDIT] Finalizado intento de transacción para Reserva 'R05'.
+[2026-11-22 10:36:09] [SYSTEM] === FIN DE EJECUCIÓN SIN INTERRUPCIONES ===
+[2026-11-22 10:45:13] [SYSTEM] === INICIO DE EJECUCIÓN DEL SISTEMA SOFTWARE FJ ===
+[2026-11-22 10:45:13] [INFO] Cliente registrado exitosamente: Cliente [C01]: Laura Gómez | Email: laura.gomez@empresa.com | Tel: 3104567890
+[2026-11-22 10:45:13] [ERROR] Contexto: Instanciación C02 | Excepción: DatosInvalidosError -> Correo electrónico inválido: 'carlos.sin.arroba.com'.
+[2026-11-22 10:45:13] [INFO] Cliente registrado exitosamente: Cliente [C03]: Andrés Mendoza | Email: amendoza@techcorp.co | Tel: 3159876543
+[2026-11-22 10:45:13] [INFO] Servicio creado: Sala 'Sala Innovación A' (Capacidad: 12 personas, con sistema de videoconferencia).
+[2026-11-22 10:45:13] [INFO] Servicio creado: Equipo [Cómputo]: Workstation Mac Studio M2 (Requiere depósito de garantía).
+[2026-11-22 10:45:13] [INFO] Servicio creado: Asesoría en Cloud (Consultor Senior): Arquitectura Cloud AWS.
+[2026-11-22 10:45:13] [ERROR] Contexto: Instanciación S04 | Excepción: DatosInvalidosError -> La tarifa base 'CIEN_DOLARES' debe ser numérica. | Causado por: ValueError: could not convert string to float: 'CIEN_DOLARES'
+[2026-11-22 10:45:13] [INFO] Reserva confirmada: Reserva [R01] | Estado: CONFIRMADA | Cliente: Laura Gómez | Servicio: Sala Innovación A (3.0h) | Total: $410.55
+[2026-11-22 10:45:13] [AUDIT] Finalizado intento de transacción para Reserva 'R01'.
+[2026-11-22 10:45:13] [ERROR] Contexto: Creación/Confirmación de Reserva R02 (Cliente=C03, Servicio=S01) | Excepción: ServicioNoDisponibleError -> El servicio 'Sala Innovación A' no está disponible actualmente.
+[2026-11-22 10:45:13] [AUDIT] Finalizado intento de transacción para Reserva 'R02'.
+[2026-11-22 10:45:13] [INFO] Reserva confirmada: Reserva [R03] | Estado: CONFIRMADA | Cliente: Andrés Mendoza | Servicio: Arquitectura Cloud AWS (4.0h) | Total: $899.64
+[2026-11-22 10:45:13] [AUDIT] Finalizado intento de transacción para Reserva 'R03'.
+[2026-11-22 10:45:13] [ERROR] Contexto: Creación/Confirmación de Reserva R04 (Cliente=C01, Servicio=S02) | Excepción: CalculoInconsistenteError -> Porcentajes de impuesto/descuento o recargos fuera de rango válido.
+[2026-11-22 10:45:13] [AUDIT] Finalizado intento de transacción para Reserva 'R04'.
+[2026-11-22 10:45:13] [INFO] Reserva 'R01' completada satisfactoriamente.
+[2026-11-22 10:45:13] [ERROR] Contexto: Cancelación de reserva R01 | Excepción: OperacionNoPermitidaError -> No se puede cancelar la reserva 'R01' en estado 'COMPLETADA'.
+[2026-11-22 10:45:13] [INFO] Reserva confirmada: Reserva [R05] | Estado: CONFIRMADA | Cliente: Andrés Mendoza | Servicio: Sala Innovación A (2.0h) | Total: $273.70
+[2026-11-22 10:45:13] [AUDIT] Finalizado intento de transacción para Reserva 'R05'.
+[2026-11-22 10:45:13] [SYSTEM] === FIN DE EJECUCIÓN SIN INTERRUPCIONES ===
+[2026-11-22 10:45:52] [SYSTEM] === INICIO DE EJECUCIÓN DEL SISTEMA SOFTWARE FJ ===
+[2026-11-22 10:45:52] [INFO] Cliente registrado exitosamente: Cliente [C01]: Laura Gómez | Email: laura.gomez@empresa.com | Tel: 3104567890
+[2026-11-22 10:45:52] [ERROR] Contexto: Instanciación C02 | Excepción: DatosInvalidosError -> Correo electrónico inválido: 'carlos.sin.arroba.com'.
+[2026-11-22 10:45:52] [INFO] Cliente registrado exitosamente: Cliente [C03]: Andrés Mendoza | Email: amendoza@techcorp.co | Tel: 3159876543
+[2026-11-22 10:45:52] [INFO] Servicio creado: Sala 'Sala Innovación A' (Capacidad: 12 personas, con sistema de videoconferencia).
+[2026-11-22 10:45:52] [INFO] Servicio creado: Equipo [Cómputo]: Workstation Mac Studio M2 (Requiere depósito de garantía).
+[2026-11-22 10:45:52] [INFO] Servicio creado: Asesoría en Cloud (Consultor Senior): Arquitectura Cloud AWS.
+[2026-11-22 10:45:52] [ERROR] Contexto: Instanciación S04 | Excepción: DatosInvalidosError -> La tarifa base 'CIEN_DOLARES' debe ser numérica. | Causado por: ValueError: could not convert string to float: 'CIEN_DOLARES'
+[2026-11-22 10:45:52] [INFO] Reserva confirmada: Reserva [R01] | Estado: CONFIRMADA | Cliente: Laura Gómez | Servicio: Sala Innovación A (3.0h) | Total: $410.55
+[2026-11-22 10:45:52] [AUDIT] Finalizado intento de transacción para Reserva 'R01'.
+[2026-11-22 10:45:52] [ERROR] Contexto: Creación/Confirmación de Reserva R02 (Cliente=C03, Servicio=S01) | Excepción: ServicioNoDisponibleError -> El servicio 'Sala Innovación A' no está disponible actualmente.
+[2026-11-22 10:45:52] [AUDIT] Finalizado intento de transacción para Reserva 'R02'.
+[2026-11-22 10:45:52] [INFO] Reserva confirmada: Reserva [R03] | Estado: CONFIRMADA | Cliente: Andrés Mendoza | Servicio: Arquitectura Cloud AWS (4.0h) | Total: $899.64
+[2026-11-22 10:45:52] [AUDIT] Finalizado intento de transacción para Reserva 'R03'.
+[2026-11-22 10:45:52] [ERROR] Contexto: Creación/Confirmación de Reserva R04 (Cliente=C01, Servicio=S02) | Excepción: CalculoInconsistenteError -> Porcentajes de impuesto/descuento o recargos fuera de rango válido.
+[2026-11-22 10:45:52] [AUDIT] Finalizado intento de transacción para Reserva 'R04'.
+[2026-11-22 10:45:52] [INFO] Reserva 'R01' completada satisfactoriamente.
+[2026-11-22 10:45:52] [ERROR] Contexto: Cancelación de reserva R01 | Excepción: OperacionNoPermitidaError -> No se puede cancelar la reserva 'R01' en estado 'COMPLETADA'.
+[2026-11-22 10:45:52] [INFO] Reserva confirmada: Reserva [R05] | Estado: CONFIRMADA | Cliente: Andrés Mendoza | Servicio: Sala Innovación A (2.0h) | Total: $273.70
+[2026-11-22 10:45:52] [AUDIT] Finalizado intento de transacción para Reserva 'R05'.
+[2026-11-22 10:45:52] [SYSTEM] === FIN DE EJECUCIÓN SIN INTERRUPCIONES ===
+[2026-11-22 11:01:03] [SYSTEM] === INICIO DE EJECUCIÓN DEL SISTEMA SOFTWARE FJ ===
+[2026-11-22 11:01:03] [INFO] Cliente registrado exitosamente: Cliente [C01]: Laura Gómez | Email: laura.gomez@empresa.com | Tel: 3104567890
+[2026-11-22 11:01:03] [ERROR] Contexto: Instanciación C02 | Excepción: DatosInvalidosError -> Correo electrónico inválido: 'carlos.sin.arroba.com'.
+[2026-11-22 11:01:03] [INFO] Cliente registrado exitosamente: Cliente [C03]: Andrés Mendoza | Email: amendoza@techcorp.co | Tel: 3159876543
+[2026-11-22 11:01:03] [INFO] Servicio creado: Sala 'Sala Innovación A' (Capacidad: 12 personas, con sistema de videoconferencia).
+[2026-11-22 11:01:03] [INFO] Servicio creado: Equipo [Cómputo]: Workstation Mac Studio M2 (Requiere depósito de garantía).
+[2026-11-22 11:01:03] [INFO] Servicio creado: Asesoría en Cloud (Consultor Senior): Arquitectura Cloud AWS.
+[2026-11-22 11:01:03] [ERROR] Contexto: Instanciación S04 | Excepción: DatosInvalidosError -> La tarifa base 'CIEN_DOLARES' debe ser numérica. | Causado por: ValueError: could not convert string to float: 'CIEN_DOLARES'
+[2026-11-22 11:01:03] [INFO] Reserva confirmada: Reserva [R01] | Estado: CONFIRMADA | Cliente: Laura Gómez | Servicio: Sala Innovación A (3.0h) | Total: $410.55
+[2026-11-22 11:01:03] [AUDIT] Finalizado intento de transacción para Reserva 'R01'.
+[2026-11-22 11:01:03] [ERROR] Contexto: Creación/Confirmación de Reserva R02 (Cliente=C03, Servicio=S01) | Excepción: ServicioNoDisponibleError -> El servicio 'Sala Innovación A' no está disponible actualmente.
+[2026-11-22 11:01:03] [AUDIT] Finalizado intento de transacción para Reserva 'R02'.
+[2026-11-22 11:01:03] [INFO] Reserva confirmada: Reserva [R03] | Estado: CONFIRMADA | Cliente: Andrés Mendoza | Servicio: Arquitectura Cloud AWS (4.0h) | Total: $899.64
+[2026-11-22 11:01:03] [AUDIT] Finalizado intento de transacción para Reserva 'R03'.
+[2026-11-22 11:01:03] [ERROR] Contexto: Creación/Confirmación de Reserva R04 (Cliente=C01, Servicio=S02) | Excepción: CalculoInconsistenteError -> Porcentajes de impuesto/descuento o recargos fuera de rango válido.
+[2026-11-22 11:01:03] [AUDIT] Finalizado intento de transacción para Reserva 'R04'.
+[2026-11-22 11:01:03] [INFO] Reserva 'R01' completada satisfactoriamente.
+[2026-11-22 11:01:03] [ERROR] Contexto: Cancelación de reserva R01 | Excepción: OperacionNoPermitidaError -> No se puede cancelar la reserva 'R01' en estado 'COMPLETADA'.
+[2026-11-22 11:01:03] [INFO] Reserva confirmada: Reserva [R05] | Estado: CONFIRMADA | Cliente: Andrés Mendoza | Servicio: Sala Innovación A (2.0h) | Total: $273.70
+[2026-11-22 11:01:03] [AUDIT] Finalizado intento de transacción para Reserva 'R05'.
+[2026-11-22 11:01:03] [SYSTEM] === FIN DE EJECUCIÓN SIN INTERRUPCIONES ===
+[2026-11-22 11:02:00] [SYSTEM] === INICIO DE EJECUCIÓN DEL SISTEMA SOFTWARE FJ ===
+[2026-11-22 11:02:00] [INFO] Cliente registrado exitosamente: Cliente [C01]: Laura Gómez | Email: laura.gomez@empresa.com | Tel: 3104567890
+[2026-11-22 11:02:00] [ERROR] Contexto: Instanciación C02 | Excepción: DatosInvalidosError -> Correo electrónico inválido: 'carlos.sin.arroba.com'.
+[2026-11-22 11:02:00] [INFO] Cliente registrado exitosamente: Cliente [C03]: Andrés Mendoza | Email: amendoza@techcorp.co | Tel: 3159876543
+[2026-11-22 11:02:00] [INFO] Servicio creado: Sala 'Sala Innovación A' (Capacidad: 12 personas, con sistema de videoconferencia).
+[2026-11-22 11:02:00] [INFO] Servicio creado: Equipo [Cómputo]: Workstation Mac Studio M2 (Requiere depósito de garantía).
+[2026-11-22 11:02:00] [INFO] Servicio creado: Asesoría en Cloud (Consultor Senior): Arquitectura Cloud AWS.
+[2026-11-22 11:02:00] [ERROR] Contexto: Instanciación S04 | Excepción: DatosInvalidosError -> La tarifa base 'CIEN_DOLARES' debe ser numérica. | Causado por: ValueError: could not convert string to float: 'CIEN_DOLARES'
+[2026-11-22 11:02:00] [INFO] Reserva confirmada: Reserva [R01] | Estado: CONFIRMADA | Cliente: Laura Gómez | Servicio: Sala Innovación A (3.0h) | Total: $410.55
+[2026-11-22 11:02:00] [AUDIT] Finalizado intento de transacción para Reserva 'R01'.
+[2026-11-22 11:02:00] [ERROR] Contexto: Creación/Confirmación de Reserva R02 (Cliente=C03, Servicio=S01) | Excepción: ServicioNoDisponibleError -> El servicio 'Sala Innovación A' no está disponible actualmente.
+[2026-11-22 11:02:00] [AUDIT] Finalizado intento de transacción para Reserva 'R02'.
+[2026-11-22 11:02:00] [INFO] Reserva confirmada: Reserva [R03] | Estado: CONFIRMADA | Cliente: Andrés Mendoza | Servicio: Arquitectura Cloud AWS (4.0h) | Total: $899.64
+[2026-11-22 11:02:00] [AUDIT] Finalizado intento de transacción para Reserva 'R03'.
+[2026-11-22 11:02:00] [ERROR] Contexto: Creación/Confirmación de Reserva R04 (Cliente=C01, Servicio=S02) | Excepción: CalculoInconsistenteError -> Porcentajes de impuesto/descuento o recargos fuera de rango válido.
+[2026-11-22 11:02:00] [AUDIT] Finalizado intento de transacción para Reserva 'R04'.
+[2026-11-22 11:02:00] [INFO] Reserva 'R01' completada satisfactoriamente.
+[2026-11-22 11:02:00] [ERROR] Contexto: Cancelación de reserva R01 | Excepción: OperacionNoPermitidaError -> No se puede cancelar la reserva 'R01' en estado 'COMPLETADA'.
+[2026-11-22 11:02:00] [INFO] Reserva confirmada: Reserva [R05] | Estado: CONFIRMADA | Cliente: Andrés Mendoza | Servicio: Sala Innovación A (2.0h) | Total: $273.70
+[2026-11-22 11:02:00] [AUDIT] Finalizado intento de transacción para Reserva 'R05'.
+[2026-11-22 11:02:00] [SYSTEM] === FIN DE EJECUCIÓN SIN INTERRUPCIONES ===
+[2026-11-22 11:02:49] [SYSTEM] === INICIO DE EJECUCIÓN DEL SISTEMA SOFTWARE FJ ===
+[2026-11-22 11:02:49] [INFO] Cliente registrado exitosamente: Cliente [C01]: Laura Gómez | Email: laura.gomez@empresa.com | Tel: 3104567890
+[2026-11-22 11:02:49] [ERROR] Contexto: Instanciación C02 | Excepción: DatosInvalidosError -> Correo electrónico inválido: 'carlos.sin.arroba.com'.
+[2026-11-22 11:02:49] [INFO] Cliente registrado exitosamente: Cliente [C03]: Andrés Mendoza | Email: amendoza@techcorp.co | Tel: 3159876543
+[2026-11-22 11:02:49] [INFO] Servicio creado: Sala 'Sala Innovación A' (Capacidad: 12 personas, con sistema de videoconferencia).
+[2026-11-22 11:02:49] [INFO] Servicio creado: Equipo [Cómputo]: Workstation Mac Studio M2 (Requiere depósito de garantía).
+[2026-11-22 11:02:49] [INFO] Servicio creado: Asesoría en Cloud (Consultor Senior): Arquitectura Cloud AWS.
+[2026-11-22 11:02:49] [ERROR] Contexto: Instanciación S04 | Excepción: DatosInvalidosError -> La tarifa base 'CIEN_DOLARES' debe ser numérica. | Causado por: ValueError: could not convert string to float: 'CIEN_DOLARES'
+[2026-11-22 11:02:49] [INFO] Reserva confirmada: Reserva [R01] | Estado: CONFIRMADA | Cliente: Laura Gómez | Servicio: Sala Innovación A (3.0h) | Total: $410.55
+[2026-11-22 11:02:49] [AUDIT] Finalizado intento de transacción para Reserva 'R01'.
+[2026-11-22 11:02:49] [ERROR] Contexto: Creación/Confirmación de Reserva R02 (Cliente=C03, Servicio=S01) | Excepción: ServicioNoDisponibleError -> El servicio 'Sala Innovación A' no está disponible actualmente.
+[2026-11-22 11:02:49] [AUDIT] Finalizado intento de transacción para Reserva 'R02'.
+[2026-11-22 11:02:49] [INFO] Reserva confirmada: Reserva [R03] | Estado: CONFIRMADA | Cliente: Andrés Mendoza | Servicio: Arquitectura Cloud AWS (4.0h) | Total: $899.64
+[2026-11-22 11:02:49] [AUDIT] Finalizado intento de transacción para Reserva 'R03'.
+[2026-11-22 11:02:49] [ERROR] Contexto: Creación/Confirmación de Reserva R04 (Cliente=C01, Servicio=S02) | Excepción: CalculoInconsistenteError -> Porcentajes de impuesto/descuento o recargos fuera de rango válido.
+[2026-11-22 11:02:49] [AUDIT] Finalizado intento de transacción para Reserva 'R04'.
+[2026-11-22 11:02:49] [INFO] Reserva 'R01' completada satisfactoriamente.
+[2026-11-22 11:02:49] [ERROR] Contexto: Cancelación de reserva R01 | Excepción: OperacionNoPermitidaError -> No se puede cancelar la reserva 'R01' en estado 'COMPLETADA'.
+[2026-11-22 11:02:49] [INFO] Reserva confirmada: Reserva [R05] | Estado: CONFIRMADA | Cliente: Andrés Mendoza | Servicio: Sala Innovación A (2.0h) | Total: $273.70
+[2026-11-22 11:02:49] [AUDIT] Finalizado intento de transacción para Reserva 'R05'.
+[2026-11-22 11:02:49] [SYSTEM] === FIN DE EJECUCIÓN SIN INTERRUPCIONES ===
